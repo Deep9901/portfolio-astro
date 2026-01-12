@@ -39,7 +39,7 @@ export const siteConfig = {
     {
       company: "Larsen & Toubro",
       title: "Data Analyst Intern",
-      dateRange: "Dec 2024 - Jan 2025",
+      dateRange: "Dec 2024 - March 2025",
       bullets: [
         "Led development of microservices architecture serving 1M+ users",
         "Reduced API response times by 40% through optimization",
