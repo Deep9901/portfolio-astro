@@ -34,17 +34,24 @@ export const siteConfig = {
       link: "https://github.com/Deep9901/vibecodeai",
       skills: ["Next.js", "TypeScript", "WebContainers", "Ollama", "Monaco Editor", "MongoDB", "Tailwind CSS", "ShadCN UI"],
     },
+    {
+      name: "Pathfinder: Interactive Algorithm Visualizer",
+      description:
+        "Developed an interactive web app to visualize pathfinding & maze generation algorithms in real-time",
+      link: "https://github.com/Deep9901/pathfinder",
+      skills: ["React", "TypeScript", "Tailwind CSS", "Vite", "Vercel"],
+    },
   ],
   experience: [
     {
       company: "Larsen & Toubro",
       title: "Data Analyst Intern",
-      dateRange: "Dec 2024 - March 2025",
-      bullets: [
-        "Led development of microservices architecture serving 1M+ users",
-        "Reduced API response times by 40% through optimization",
-        "Mentored team of 5 junior developers",
-      ],
+      dateRange: "Dec 2024 - April 2025",
+      bullets: ["Developed high-performance Node.js/Express APIs for high-frequency data ingestion",
+        "Reduced API latency by 40% through strategic indexing and query optimization",
+        "Engineered real-time pipelines ensuring data integrity using ACID transactions",
+        "Architected scalable PostgreSQL schemas for efficient storage and analytics",
+        "Built backend endpoints to generate real-time system metrics and reports"]
     },
 
   ],
