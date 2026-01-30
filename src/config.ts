@@ -14,6 +14,13 @@ export const siteConfig = {
   skills: ["Javascript", "Python", "React", "Node.js", "Express", "AWS", "Docker", "Kubernetes"],
   projects: [
     {
+      name: "Hybrid Agentic RAG Platform",
+      description:
+        "Architected an autonomous AI Agent using LangGraph that dynamically routes queries between a private RAG knowledge base and real-time web search with a self-correcting LLM 'Judge' loop.",
+      link: "https://github.com/Deep9901/hybrid-rag-agent",
+      skills: ["LangGraph", "FastAPI", "Pinecone", "Groq", "Tavily", "Llama 3", "Streamlit"],
+    },
+    {
       name: "InterviewIQ: Full-Stack Technical Interview Platform",
       description:
         "Engineered a full-stack platform featuring real-time video calls (WebRTC), a collaborative code editor, and an auto-grading system for seamless technical interviews.",
