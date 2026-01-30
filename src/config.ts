@@ -46,12 +46,13 @@ export const siteConfig = {
     {
       company: "Larsen & Toubro",
       title: "Data Analyst Intern",
-      dateRange: "Dec 2024 - April 2025",
-      bullets: ["Developed high-performance Node.js/Express APIs for high-frequency data ingestion",
-        "Reduced API latency by 40% through strategic indexing and query optimization",
-        "Engineered real-time pipelines ensuring data integrity using ACID transactions",
-        "Architected scalable PostgreSQL schemas for efficient storage and analytics",
-        "Built backend endpoints to generate real-time system metrics and reports"]
+      dateRange: "Dec 2024 - March 2025",
+      bullets: [
+        "Developed high-performance Node.js pipelines for machine telemetry ingestion, ensuring data integrity for downstream AI analysis.",
+        "Built a RAG-based analytical engine using LLMs to query historical logs via natural language, reducing fault diagnosis time by 40%.",
+        "Optimized PostgreSQL time-series performance through partitioning and indexing, reducing API latency for complex aggregations.",
+        "Orchestrated real-time monitoring via WebSockets and streamlined Docker-based deployments for CI/CD environment consistency."
+      ],
     },
 
   ],
